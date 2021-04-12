@@ -9,14 +9,14 @@ import {
     NavItems,
     NavLinks,
 } from './NavbarElements';
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
         {/*create with rafce command'*/}
             <Nav>
-                <NavbarContainer>
+                <NavbarContainer >
                     <NavLogo to='/'>JCPosso</NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars/>
                     </MobileIcon>
                     <NavMenu>
