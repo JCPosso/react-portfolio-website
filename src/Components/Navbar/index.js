@@ -8,8 +8,6 @@ import {
     NavMenu,
     NavItems,
     NavLinks,
-    NavBtn,
-    NavBtnLink
 } from './NavbarElements';
 const Navbar = () => {
     return (
