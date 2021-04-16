@@ -6,8 +6,7 @@ import {
     HeroP,
     HeroH1,
     HeroBtnWrapper,
-    ArrowForward,
-    ArrowRight
+    Button
 } from './HeroElements';
 
 const HeroSection = () => {
@@ -26,8 +25,8 @@ const HeroSection = () => {
                     Know me , I am a Systems Engineering student, passionate about life and tecnnology.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="cv-pdf" onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Downland CV{hover? <ArrowForward /> :<ArrowRight/>}
+                    <Button>
+                        Downland CV
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
