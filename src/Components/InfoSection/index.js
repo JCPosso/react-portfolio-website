@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import imgs from '../../images/study.svg';
+import img2 from '../../images/study.svg';
+import img3 from '../../images/study.svg';
+import img4 from '../../images/study.svg';
 import {
     InfoContainer,
     InfoWrapper,
@@ -12,22 +16,33 @@ import {
     ImgWrap,
     Img
 } from './InfoElements';
-const InfoSection = () => {
+const InfoSection = ({
+    img,
+    alt,
+    topLine,
+    lightText,
+    headLine,
+    darkText,
+    description,
+    imgStart,
+    lightBg,
+    id
+    }) => {
     return (
         <>
-            <InfoContainer>
+            <InfoContainer lightBg={lightBg} id={id} >
                 <InfoWrapper>
-                    <InfoRow>
+                    <InfoRow imgStart={imgStart} >
                         <Column1>
                         <TextWrapper>
-                            <TopLine>Topline</TopLine>
-                            <Heading>Heading</Heading>
-                            <Subtitle>Subtitle</Subtitle>
+                            <TopLine>{topLine}</TopLine>
+                            <Heading lightText={lightText}>{headLine}</Heading>
+                            <Subtitle darkText={darkText}>{description}</Subtitle>
                         </TextWrapper>
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                            <Img/>
+                            <Img src={img} alt={alt}/>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
