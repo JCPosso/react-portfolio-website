@@ -1,8 +1,4 @@
 import React from 'react';
-import imgs from '../../images/study.svg';
-import img2 from '../../images/study.svg';
-import img3 from '../../images/study.svg';
-import img4 from '../../images/study.svg';
 import {
     InfoContainer,
     InfoWrapper,
