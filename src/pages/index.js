@@ -19,7 +19,6 @@ const Home = () => {
         <HeroSection/>
         <InfoSection {...homeS1} />
         <InfoSection {...homeS2} />
-        <InfoSection {...homeS3} />
         <Projects/>
         </>
     )

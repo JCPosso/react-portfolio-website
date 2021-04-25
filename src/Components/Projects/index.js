@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Services = () => {
+import {ProjectsContainer,ProjectsWrappers,ProjectsCard,ProjectsH1,ProjectsH2,ProjectsP, ProjectsIcon} from './ProjectsElements';
+const Projects = () => {
     return (
         <ProjectsContainer>
             <ProjectsH1>My projects</ProjectsH1>
@@ -25,4 +25,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Projects
