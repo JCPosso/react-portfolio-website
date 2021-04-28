@@ -66,7 +66,7 @@ export const SidebarLink = styled(LinkS)`
 `
 export  const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
-    backgroud: #01bf71;
+    background: #01bf71;
     white-space: nowrap;
     padding: 16px 64px;
     color: #010606;

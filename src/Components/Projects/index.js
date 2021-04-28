@@ -2,7 +2,7 @@ import React from 'react'
 import {ProjectsContainer,ProjectsWrappers,ProjectsCard,ProjectsH1,ProjectsH2,ProjectsP, ProjectsIcon} from './ProjectsElements';
 const Projects = () => {
     return (
-        <ProjectsContainer>
+        <ProjectsContainer id="projects">
             <ProjectsH1>My projects</ProjectsH1>
             <ProjectsWrappers>
                 <ProjectsCard>
