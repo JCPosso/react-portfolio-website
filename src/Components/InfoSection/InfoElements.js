@@ -48,7 +48,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 `;
 
 export const TopLine = styled.p`
@@ -74,7 +74,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.div`
-        max-width:440px;
+        max-width:600px;
         margin-bottom:35px;
         font-size: 18px;
         line-height: 24px;
@@ -91,4 +91,33 @@ export const Img= styled.img`
         width:100%;
         margin: 0 0 10px 0;
         padding-right: 0;
+`;
+
+export const H3Tab = styled.h3`
+    margin-bottom: 14px;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 50px;
+    color:${({lightText})=>(lightText ? '#f7f8fa':'#010606')};
+
+    @media screen and (max-width: 480px){
+        font-size:15px;     
+        }
+`;
+
+export const DateTab = styled.div`
+        max-width:200px;
+        margin-bottom:15px;
+        font-size: 15px;
+        line-height: 10px;
+        color:${({darkText})=>(darkText ? '#010606':'#fff')};
+`;
+
+
+export const PTab = styled.p`
+        max-width:400px;
+        margin-bottom:15px;
+        font-size: 10px;
+        line-height: 10px;
+        color:${({darkText})=>(darkText ? '#010606':'#fff')};
 `;

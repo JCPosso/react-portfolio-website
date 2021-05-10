@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     padding: 0 30px;
-    height: 400px;
+    height: 600px;
     position: relative;
     z-index:1;
 
@@ -44,14 +44,48 @@ export const HeroBg =styled.div`
 
 export const HeroContent =styled.div`
     z-index:3;
-    max-width: 800px;
+    max-width: 1700px;
     position: absolute;
-    padding: 200px 24px;
+    padding: 70px 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
 `;
 
+export const HeroContentWrapper = styled.div`
+    display: grid;
+    z-index:1;
+    height: 500px;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;
+`;
+
+export const HeroRow = styled.div`
+    display:grid;
+    grid-auto-columns: minmax(auto,1fr);
+    align-items: center;
+    grid-template-areas: 'col1 col2';
+
+    @media screen and (max-width: 768px){
+        grid-template-areas:  'col1 col1' 'col2 col2';
+    
+        }
+`;
+export const HColumn1 = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area: col1;
+`;
+
+export const HColumn2 = styled.div`
+    margin-bottom: 15px;
+    padding: 0 15px;
+    grid-area:col2;
+`;
 export const HeroH1 = styled.h1`
     color: #fff;
     font-size: 48px;
