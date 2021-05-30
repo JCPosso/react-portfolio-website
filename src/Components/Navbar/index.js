@@ -49,7 +49,7 @@ const Navbar = ({toggle}) => {
                                 duration={500}
                                 spy={true}
                                 exact ='true' 
-                                offset={-80}
+                                offset={80}
                             >About</NavLinks>
                         </NavItems>
                         <NavItems>
@@ -59,7 +59,7 @@ const Navbar = ({toggle}) => {
                                 duration={500}
                                 spy={true}
                                 exact ='true' 
-                                offset={-80}
+                                offset={-10}
                                 >Education</NavLinks>
                         </NavItems>
                         <NavItems>
@@ -69,7 +69,7 @@ const Navbar = ({toggle}) => {
                                 duration={500}
                                 spy={true}
                                 exact ='true' 
-                                offset={-80}
+                                offset={80}
                                 >Projects</NavLinks>
                         </NavItems>
                         <NavItems>
@@ -79,7 +79,7 @@ const Navbar = ({toggle}) => {
                                 duration={500}
                                 spy={true}
                                 exact ='true' 
-                                offset={-80}
+                                offset={80}
                                 >Contact </NavLinks>
                         </NavItems>
                     </NavMenu>

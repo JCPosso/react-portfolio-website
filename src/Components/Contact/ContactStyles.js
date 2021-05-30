@@ -7,24 +7,22 @@ export const ContactContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #fff;
-
-    @media screen and (max-width: 768px ){
-        height: 1200px;
+    @media screen and (max-width: 768px){
+        padding: 100px 0;
     }
-    @media screen and (max-width: 480px ){
-        height: 9S00px;
-    }   
 `;
 export const ContactContainer2 = styled.div`
-    margin: 20px 0px;
-    width: 500px;
+    max-width: 700px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     position: relative;
     border-radius: 10px;
     height: 500px;
-    display: grid;
-    grid-template-columns: 1fr;
     padding:20px;
+
 `;
 
 export const ContactH1 = styled.h1`
