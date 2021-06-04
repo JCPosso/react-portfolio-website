@@ -6,6 +6,7 @@ import {
     SidebarMenu,
     SidebarLink,
 } from './SidebarElements';
+import {Button,HeroBtnWrapper} from './../HeroSection/HeroElements';
 const Sidebar = ({isOpen,toggle}) => {
     return (
         <>
@@ -19,6 +20,7 @@ const Sidebar = ({isOpen,toggle}) => {
                         <SidebarLink to ='education'onClick={toggle}>Education</SidebarLink>
                         <SidebarLink to ='projects' onClick={toggle}> Projects</SidebarLink>
                         <SidebarLink to ='contact' onClick={toggle}>Contact</SidebarLink>
+                        <HeroBtnWrapper><Button> Download CV </Button></HeroBtnWrapper>
                     </SidebarMenu>
                 </SidebarWrapper>
             </SidebarContainer>

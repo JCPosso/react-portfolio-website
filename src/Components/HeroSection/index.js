@@ -15,7 +15,7 @@ import {
 import {
     Img,ImgWrap
 } from './../InfoSection/InfoElements';
-import imgn from '../../images/dev.png';
+import imgn from '../../images/background.jpg';
 const HeroSection = () => {
     const[ hover, setHover] =useState(false);
 
@@ -24,28 +24,20 @@ const HeroSection = () => {
     }
     return (
         <HeroContainer id="home">
-            <HeroBg>
+            <HeroBg src={imgn} alt="none">
             </HeroBg>
             <HeroContent>
                 <HeroContentWrapper>
-                    <HeroRow>
-                        <HColumn1>
                             <HeroH1>Hi! Im Juan Camilo</HeroH1>
                             <HeroP>
-                                Know me , I am a Systems Engineering student, passionate about life and tecnnology.
+                                Know me , I am a Systems Engineering student,Im passionate about life and tecnnology.
                             </HeroP>
                             <HeroBtnWrapper>
-                                <Button>
-                                    Downland CV
+                                <Button to="">
+                                    Download CV
                                 </Button>
                             </HeroBtnWrapper>
-                        </HColumn1>
-                        <HColumn2>
-                            <ImgWrap>
-                                <Img src={imgn}alt="some"/>
-                            </ImgWrap>
-                        </HColumn2>
-                    </HeroRow>
+                        
                 </HeroContentWrapper>
             </HeroContent>
         </HeroContainer>

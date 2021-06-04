@@ -1,17 +1,17 @@
 export default [
     {id: 1,
         titulo: 'Escuela colombiana de Ingenieria Julio Garavito ',
-        fecha:'(1Jan 2017- Actually)',
-        texto:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labo'
+        fecha:'(1Jan 2017- Currently)',
+        texto:'Degree: Ingeniero de Sistemas'
     },
     {id: 2,
-        titulo: 'Escuela colombiana de Ingenieria Julio Garavito ',
-        fecha:'(1Jan 2017- Actually)',
-        texto:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labo'
+        titulo: 'Servicio Nacional de aprendizaje (SENA)',
+        fecha:'(1Jan 2014 - 10 Dic 2016)',
+        texto:'Degree: Tecnico en Operaciones contables y financieras'
     },
     {id: 3,
-        titulo: 'Escuela colombiana de Ingenieria Julio Garavito ',
-        fecha:'(1Jan 2017- Actually)',
-        texto:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labo'
+        titulo: 'Liceo Nuestra señora de las Nieves',
+        fecha:'(1Jan 2006- 10 Dic 2016)',
+        texto:'Degree: Bachiller comercial'
     }
 ];

@@ -10,8 +10,9 @@ import {
     NavMenu,
     NavItems,
     NavLinks,
+    NavBtnWrapper,
+    Button
 } from './NavbarElements';
-
 
 const Navbar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -49,7 +50,7 @@ const Navbar = ({toggle}) => {
                                 duration={500}
                                 spy={true}
                                 exact ='true' 
-                                offset={80}
+                                offset={20}
                             >About</NavLinks>
                         </NavItems>
                         <NavItems>
@@ -59,7 +60,7 @@ const Navbar = ({toggle}) => {
                                 duration={500}
                                 spy={true}
                                 exact ='true' 
-                                offset={-10}
+                                offset={20}
                                 >Education</NavLinks>
                         </NavItems>
                         <NavItems>
@@ -82,6 +83,9 @@ const Navbar = ({toggle}) => {
                                 offset={80}
                                 >Contact </NavLinks>
                         </NavItems>
+                        <NavBtnWrapper>
+                            <Button>DownloadCV </Button>
+                        </NavBtnWrapper>
                     </NavMenu>
 
                 </NavbarContainer>

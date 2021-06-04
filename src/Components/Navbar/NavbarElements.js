@@ -26,7 +26,7 @@ export const NavbarContainer =styled.div`
     z-index:1;
     width:100%;
     padding:   0 24px;
-    max-width: 1100px;
+    max-width: 1200px;
     `;
 
 export const NavLogo =styled(LinkR)`
@@ -82,6 +82,34 @@ export const  NavLinks =styled(LinkS)`
     cursor: pointer;
 
     &:active{
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid Teal;
+    }
+`;
+
+export const NavBtnWrapper =styled.div`
+    margin-left: 0px;
+    display: flex;
+    white-space: nowrap;
+`;
+
+
+export const Button =styled(LinkR)`
+    border-radius: 50px;
+    background: none;
+    white-space: nowrap;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border-style: outset;
+    border-color: Teal;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010906;
     }
 `;

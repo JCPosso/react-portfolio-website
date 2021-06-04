@@ -5,15 +5,14 @@ export const homeS1= {
     lightTextDesc:true,
     topLine:'ABOUT ME..',
     headLine:'Who Im?',
-    description:'I am in the eighth semester of Systems Engineering, I was 21 years old ,'+
+    description:'I am in the eighth semester of Systems Engineering, Im 21 years old ,'+
                 'interested in web development,'+
-                'software, artificial intelligence, Cloud Computing and computer science.'+
-                'Technical experience in css html javascript , react , Oracle DB and mysql , Python, node and '+
-                'javascript frameworks .'+
-                'I am a database monitor.  Knowledge  computational architecture ,  and process automation .'+
-                'Aptitude for teamwork, im responsable and creative person.',
+                'software, artificial intelligence, Cloud Computing and computer science. '+
+                'Technical experience in css, html, javascript, OracleDB and Mysql, Python, NodeJs, ReactJs among others frameworks. '+
+                'I am a database monitor. I have Knowledge  computational architecture and process automation, '+
+                'Aptitude for teamwork and Im responsable and creative person. ',
     imgStart: true,
-    img: require('../../images/info.svg').default,
+    img: require('../../images/perfilmontaje.png').default,
     alt: 'idont know',
     dark: true,
     primary: true,
@@ -30,7 +29,7 @@ export const homeS2= {
     headLine:'School life',
     description:'Here are the institutions where I have learned great things and they mean a lot to me',
     imgStart: false,
-    img: require('../../images/study.svg').default,
+    img: require('../../images/juliogaravito.jpg').default,
     alt: 'idont know',
     dark: false,
     primary: true,

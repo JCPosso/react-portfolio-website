@@ -82,14 +82,14 @@ export const Subtitle = styled.div`
 `;
 
 export const ImgWrap= styled.div`
-        max-width: 550px;
+        max-width: 450px;
         height:100%;
 `;
 
 
 export const Img= styled.img`
         width:100%;
-        margin: 0 0 10px 0;
+        margin: 0 0 40px 10px;
         padding-right: 0;
 `;
 
@@ -106,18 +106,18 @@ export const H3Tab = styled.h3`
 `;
 
 export const DateTab = styled.div`
-        max-width:200px;
+        max-width:400px;
         margin-bottom:15px;
-        font-size: 15px;
+        font-size: 12px;
         line-height: 10px;
         color:${({darkText})=>(darkText ? '#010606':'#fff')};
 `;
 
 
 export const PTab = styled.p`
-        max-width:400px;
+        max-width:500px;
         margin-bottom:15px;
-        font-size: 10px;
+        font-size: 15px;
         line-height: 10px;
         color:${({darkText})=>(darkText ? '#010606':'#fff')};
 `;
