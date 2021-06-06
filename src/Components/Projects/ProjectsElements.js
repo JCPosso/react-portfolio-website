@@ -75,6 +75,13 @@ export const ProjectsH2 = styled.h2`
 `;
 
 export const   ProjectsP = styled.p`
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-align: center;
+`;
+export const ProjectLink = styled.a`
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
 `;

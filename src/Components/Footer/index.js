@@ -1,5 +1,7 @@
 import React from 'react'
 import {FaFacebook, FaInstagram,FaLinkedin} from 'react-icons/fa';
+import SocialMediaBtn from '../SocialMedia';
+
 import {    
     FooterContainer,
     FooterWrap,
@@ -19,17 +21,7 @@ const Footer = () => {
                     <SocialMediaWrap>
                         <SocialLogo to='/'>JCPosso</SocialLogo>
                         <WebSiteRight>JCPosso © {new Date().getFullYear()} All rights  reserved</WebSiteRight>
-                        <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" arial-label="Facebook">
-                                <FaFacebook/>
-                            </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" arial-label="Instagram">
-                                <FaInstagram/>
-                            </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" arial-label="LinkedIn">
-                                <FaLinkedin/>
-                            </SocialIconLink>
-                        </SocialIcons>
+                        <SocialMediaBtn/>
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>

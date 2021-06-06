@@ -152,3 +152,9 @@ export const Button =styled(LinkR)`
         color: #010906;
     }
 `;
+
+export const SocialHeroWrapper =styled.div`
+    margin: 0 auto;
+    max-width: 240px;
+    margin-top: 22px;
+`;

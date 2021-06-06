@@ -10,12 +10,15 @@ import {
     HColumn1,
     HColumn2,
     HeroContentWrapper,
-    HeroRow
+    HeroRow,
+    SocialHeroWrapper
 } from './HeroElements';
 import {
     Img,ImgWrap
 } from './../InfoSection/InfoElements';
 import imgn from '../../images/background.jpg';
+import hv from '../../Documents/juancamilopossoguevara.pdf';
+import SocialMedia from '../SocialMedia';
 const HeroSection = () => {
     const[ hover, setHover] =useState(false);
 
@@ -32,8 +35,11 @@ const HeroSection = () => {
                             <HeroP>
                                 Know me , I am a Systems Engineering student,Im passionate about life and tecnnology.
                             </HeroP>
+                            <SocialHeroWrapper>
+                                <SocialMedia/>
+                            </SocialHeroWrapper>
                             <HeroBtnWrapper>
-                                <Button to="">
+                                <Button to={hv} target="_blank" download>
                                     Download CV
                                 </Button>
                             </HeroBtnWrapper>

@@ -1,8 +1,8 @@
+
 .form-content {
     border-radius: 0 10px 10px 0;
     position: relative;
-    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
-         
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);  
   }
   .form {
     position: absolute;
@@ -23,6 +23,7 @@
     width: 80%;
     margin-bottom: 1rem;
     color: #fff;
+    text-align: center;
   }
   
   .form-inputs {
@@ -84,7 +85,11 @@
     background: linear-gradient(
       90deg,
       rgb(39, 143, 255) 0%,
-      rgb(12, 99, 250) 100%
+      rgb(45, 230, 230) 100%
     );
     transition: all 0.4s ease-out;
+  }
+
+  .wrong{
+    color: red;
   }

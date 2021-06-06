@@ -49,15 +49,3 @@ export const  WebSiteRight = styled.small`
     color: #fff;
     margin-bottom:  16px;
 `;
-
-export const SocialIcons = styled.div`
-    display:flex;
-    justify-content: space-between;
-    align-iems: center;
-    width: 240px;
-`;
-
-export const SocialIconLink = styled.a`
-    color: #fff; 
-    font-size:24px;
-`;

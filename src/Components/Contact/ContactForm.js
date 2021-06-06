@@ -2,6 +2,7 @@ import React from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
 import './ContactElements.css';
+import SocialMedia from '../SocialMedia';
 
 const ContactForm = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -12,9 +13,11 @@ const ContactForm = ({ submitForm }) => {
   return (
     <div className='form-content'>
       <form onSubmit={handleSubmit} className='form' noValidate>
+      <SocialMedia/>
         <h1>
           I will be glad to answer your questions.
         </h1>
+      <label className="wrong"> Application Form doesn't work</label>
         <div className='form-inputs'>
           <label className='form-label'>Name</label>
           <input

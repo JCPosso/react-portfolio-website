@@ -28,7 +28,7 @@ export const ContactContainer2 = styled.div`
 export const ContactH1 = styled.h1`
     font-size: 2.5rem;
     color: #000;
-    margin-top: 100px;
+    margin:40px 0px;
 
     @media screen and ( max-width: 480px ){
         font-size: 2rem;

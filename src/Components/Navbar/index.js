@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import {animateScroll as scroll } from 'react-scroll';
+import hv from '../../Documents/juancamilopossoguevara.pdf';
 import {
     Nav,
     NavbarContainer,
@@ -80,11 +81,11 @@ const Navbar = ({toggle}) => {
                                 duration={500}
                                 spy={true}
                                 exact ='true' 
-                                offset={80}
+                                offset={20}
                                 >Contact </NavLinks>
                         </NavItems>
                         <NavBtnWrapper>
-                            <Button>DownloadCV </Button>
+                            <Button to={hv} target="_blank" download>DownloadCV </Button>
                         </NavBtnWrapper>
                     </NavMenu>
 
