@@ -1,5 +1,4 @@
 import React from 'react'
-import {FaFacebook, FaInstagram,FaLinkedin} from 'react-icons/fa';
 import SocialMediaBtn from '../SocialMedia';
 
 import {    
@@ -7,8 +6,6 @@ import {
     FooterWrap,
     SocialMedia,
     SocialMediaWrap,
-    SocialIcons,
-    SocialIconLink,
     WebSiteRight,
     SocialLogo
 

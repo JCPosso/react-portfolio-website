@@ -17,7 +17,6 @@ const ContactForm = ({ submitForm }) => {
         <h1>
           I will be glad to answer your questions.
         </h1>
-      <label className="wrong"> Application Form doesn't work</label>
         <div className='form-inputs'>
           <label className='form-label'>Name</label>
           <input
@@ -54,7 +53,7 @@ const ContactForm = ({ submitForm }) => {
           />
           {errors.message && <p>{errors.message}</p>}
         </div>
-        <button className='form-input-btn' type='submit'>
+        <button className='form-input-btn' type='submit' disabled>
           Send
         </button>
       </form>

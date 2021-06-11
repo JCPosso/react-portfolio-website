@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import {animateScroll as scroll } from 'react-scroll';
-import hv from '../../Documents/juancamilopossoguevara.pdf';
+import hv from '../../Documents/Juan-Camilo-Posso-Guevara.pdf';
 import {
     Nav,
     NavbarContainer,

@@ -79,17 +79,6 @@
     color: #fff;
     font-size: 1rem;
   }
-  
-  .form-input-btn:hover {
-    cursor: pointer;
-    background: linear-gradient(
-      90deg,
-      rgb(39, 143, 255) 0%,
-      rgb(45, 230, 230) 100%
-    );
-    transition: all 0.4s ease-out;
-  }
-
   .wrong{
     color: red;
   }

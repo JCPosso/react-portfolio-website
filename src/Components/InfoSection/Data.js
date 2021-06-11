@@ -9,7 +9,7 @@ export const homeS1= {
                 'interested in web development,'+
                 'software, artificial intelligence, Cloud Computing and computer science. '+
                 'Technical experience in css, html, javascript, OracleDB and Mysql, Python, NodeJs, ReactJs among others frameworks. '+
-                'I am a database monitor. I have Knowledge  computational architecture and process automation, '+
+                'I am a database monitor. I have Knowledge  bussiness process automation and agile methodologies '+
                 'Aptitude for teamwork and Im responsable and creative person. ',
     imgStart: true,
     img: require('../../images/perfilmontaje.png').default,

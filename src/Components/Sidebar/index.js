@@ -7,6 +7,7 @@ import {
     SidebarLink,
 } from './SidebarElements';
 import {Button,HeroBtnWrapper} from './../HeroSection/HeroElements';
+import hv from '../../Documents/Juan-Camilo-Posso-Guevara.pdf';
 const Sidebar = ({isOpen,toggle}) => {
     return (
         <>
@@ -20,7 +21,7 @@ const Sidebar = ({isOpen,toggle}) => {
                         <SidebarLink to ='education'onClick={toggle}>Education</SidebarLink>
                         <SidebarLink to ='projects' onClick={toggle}> Projects</SidebarLink>
                         <SidebarLink to ='contact' onClick={toggle}>Contact</SidebarLink>
-                        <HeroBtnWrapper><Button> Download CV </Button></HeroBtnWrapper>
+                        <HeroBtnWrapper><Button  to={hv} target="_blank" download> Download CV </Button></HeroBtnWrapper>
                     </SidebarMenu>
                 </SidebarWrapper>
             </SidebarContainer>

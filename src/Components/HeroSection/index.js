@@ -7,17 +7,11 @@ import {
     HeroH1,
     HeroBtnWrapper,
     Button,
-    HColumn1,
-    HColumn2,
     HeroContentWrapper,
-    HeroRow,
     SocialHeroWrapper
 } from './HeroElements';
-import {
-    Img,ImgWrap
-} from './../InfoSection/InfoElements';
 import imgn from '../../images/background.jpg';
-import hv from '../../Documents/juancamilopossoguevara.pdf';
+import hv from '../../Documents/Juan-Camilo-Posso-Guevara.pdf';
 import SocialMedia from '../SocialMedia';
 const HeroSection = () => {
     const[ hover, setHover] =useState(false);
