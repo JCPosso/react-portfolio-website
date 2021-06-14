@@ -4,8 +4,8 @@ export const homeS1= {
     lightText: true,
     lightTextDesc:true,
     topLine:'ABOUT ME..',
-    headLine:'Who Im?',
-    description:'I am in the eighth semester of Systems Engineering, Im 21 years old ,'+
+    headLine:'Who I am',
+    description:'I am in the eighth semester of Systems Engineering, Im 21 years old,'+
                 'interested in web development,'+
                 'software, artificial intelligence, Cloud Computing and computer science. '+
                 'Technical experience in css, html, javascript, OracleDB and Mysql, Python, NodeJs, ReactJs among others frameworks. '+
@@ -13,7 +13,7 @@ export const homeS1= {
                 'Aptitude for teamwork. Im responsable and creative person. ',
     imgStart: true,
     img: require('../../images/perfilmontaje.png').default,
-    alt: 'idont know',
+    alt: 'portfile',
     dark: true,
     primary: true,
     darkText:false

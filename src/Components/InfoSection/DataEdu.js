@@ -7,7 +7,7 @@ export default [
     {id: 2,
         titulo: 'Servicio Nacional de aprendizaje (SENA)',
         fecha:'(1Jan 2014 - 10 Dic 2016)',
-        texto:'Degree: Tecnico en Operaciones contables y financieras'
+        texto:'Degree: Técnico en Operaciones contables y financieras'
     },
     {id: 3,
         titulo: 'Liceo Nuestra señora de las Nieves',

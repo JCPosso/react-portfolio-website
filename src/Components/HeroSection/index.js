@@ -25,9 +25,9 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroContentWrapper>
-                            <HeroH1>Hi! Im Juan Camilo</HeroH1>
+                            <HeroH1>Hi! I'm Juan Camilo</HeroH1>
                             <HeroP>
-                                Know me , I am a Systems Engineering student,Im passionate about life and tecnnology.
+                                Get know me , I am a Systems Engineering student,Im passionate about life and tecnnology.
                             </HeroP>
                             <SocialHeroWrapper>
                                 <SocialMedia/>
