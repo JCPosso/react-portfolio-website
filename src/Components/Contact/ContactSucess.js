@@ -1,12 +1,12 @@
 import React from 'react'
-
+import sucess from './../../images/nycat.gif';
 const ContactSucess = () => {
     return (
         <div className="form-content">
             <div className="form-sucess">
-                We have received your request!!
+                Thanks for your request!!
             </div>
-            <img src="img/img-3.svg" alt="sucess-image" className="form-img-2" />
+            <img src={sucess} alt="sucess-image" className="form-img-2" />
         </div>
         )
 }

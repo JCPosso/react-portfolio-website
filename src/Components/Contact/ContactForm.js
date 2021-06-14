@@ -53,7 +53,7 @@ const ContactForm = ({ submitForm }) => {
           />
           {errors.message && <p>{errors.message}</p>}
         </div>
-        <button className='form-input-btn' type='submit' disabled>
+        <button className='form-input-btn' type='submit'>
           Send
         </button>
       </form>

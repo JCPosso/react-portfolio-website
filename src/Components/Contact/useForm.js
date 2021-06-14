@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import db from './../../firebase/firebaseConfig';
 
 const useForm = (callback, validate) => {
   const [values, setValues] = useState({
@@ -19,7 +20,6 @@ const useForm = (callback, validate) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-
     setErrors(validate(values));
     setIsSubmitting(true);
   };
@@ -27,6 +27,20 @@ const useForm = (callback, validate) => {
   useEffect(
     () => {
       if (Object.keys(errors).length === 0 && isSubmitting) {
+        
+    db.collection('contacts')
+    .add({
+      name: values.username,
+      email: values.email,
+      message:values.message
+    })
+    .then(()=>{
+      
+    })
+    .catch((error)=>{
+      alert(error.message);
+    })
+    ;
         callback();
       }
     },

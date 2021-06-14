@@ -82,3 +82,26 @@
   .wrong{
     color: red;
   }
+
+  .form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(45, 230, 230) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  .form-sucess{
+    color:aliceblue;
+    align-items: center;
+    text-align: center;
+    font-size:150%;
+    font-weight: bolder;
+    margin-top:21px;
+  }
+  .form-img-2{
+    width:80%;
+    margin: 5% auto;
+    display:flex;
+  }
